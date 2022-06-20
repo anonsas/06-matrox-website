@@ -1,0 +1,38 @@
+:root {
+  --font-base: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --blue-color: #31a9f3;
+  --red-color: #ea1e63;
+  --black-color: #030303;
+  --white-color: #ffffff;
+  --gray-color-light: #d2ccc9;
+  --gray-color-dark: #475159;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 1.6;
+
+  font-size: 1.6rem; /* 16px or style elements individually */
+  min-height: 100vh; /* body - takes the full screen */
+}
+
+/* Changing the style of selected text */
+::selection {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
