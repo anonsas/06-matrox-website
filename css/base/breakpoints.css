@@ -7,6 +7,11 @@
   margin: 0 calc(50% - 50rem);
 }
 
+.container > .row-small {
+  width: 60rem;
+  margin: 0 calc(50% - 30rem);
+}
+
 @media screen and (max-width: 1100px) {
   .container > .row {
     width: 80rem;
@@ -22,7 +27,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .container > .row {
+  .container > .row,
+  .container > .row-small {
     width: 100%;
     margin: 0;
   }
