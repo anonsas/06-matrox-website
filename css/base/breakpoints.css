@@ -12,14 +12,14 @@
   margin: 0 calc(50% - 30rem);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .container > .row {
     width: 80rem;
     margin: 0 calc(50% - 40rem);
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .container > .row {
     width: 60rem;
     margin: 0 calc(50% - 30rem);
