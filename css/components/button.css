@@ -1,0 +1,9 @@
+.btn {
+  color: var(--white-color);
+  background-color: var(--red-color);
+  border: none;
+}
+
+.btn-submit {
+  padding: 1em 2.2em;
+}
