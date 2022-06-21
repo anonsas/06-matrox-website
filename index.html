@@ -24,28 +24,45 @@
     ></script>
   </head>
   <body>
-    <header id="header" class="header">
-      <img src="./images/logo.png" alt="logo" class="header__logo" />
+    <section id="hero" class="container hero">
+      <div class="row">
+        <img src="./images/logo.png" alt="logo" class="hero__logo" />
 
-      <div class="heading">
-        <h1 class="header__title">COMING SOON</h1>
-        <div class="header__subheading">
-          <p>An awesome new company for web resources is coming very soon.</p>
-          <p>Enter your email to request an early invitation!</p>
+        <div class="container heading">
+          <h1 class="heading__title">COMING SOON</h1>
+          <div class="heading__subheading">
+            <p>An awesome new company for web resources is coming very soon.</p>
+            <p>Enter your email to request an early invitation!</p>
+          </div>
+        </div>
+
+        <div class="clock">
+          <p>432<span>DAYS</span></p>
+          <p>09<span>HOURS</span></p>
+          <p>37<span>MINUTES</span></p>
+          <p>39<span>SECONDS</span></p>
+        </div>
+
+        <form class="form-small">
+          <input type="text" placeholder="Type your email" required />
+          <button type="submit" class="btn btn-submit">Subscribe Now</button>
+        </form>
+        <a href="#" class="mouse fa-solid fa-chevron-down"></a>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <div class="row"></div>
+    </section>
+
+    <footer class="container footer">
+      <div class="row">
+        <div class="socials">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
         </div>
       </div>
-
-      <div class="clock">
-        <p>432<span>DAYS</span></p>
-        <p>09<span>HOURS</span></p>
-        <p>37<span>MINUTES</span></p>
-        <p>39<span>SECONDS</span></p>
-      </div>
-      <form class="form-small">
-        <input type="text" required />
-        <button type="submit" class="btn btn-submit">Subscribe Now</button>
-      </form>
-      <a href="#" class="mouse fa-solid fa-chevron-down"></a>
-    </header>
+    </footer>
   </body>
 </html>
