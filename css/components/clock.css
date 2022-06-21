@@ -1,3 +1,50 @@
 .clock {
+  color: var(--white-color);
+  padding: 3rem 0;
+  width: 40rem;
+  margin: 0 calc(50% - 20rem);
+
   display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+}
+
+.clock div {
+  font-size: 4rem;
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.clock div p:last-child {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .clock {
+    width: 30rem;
+    margin: 0 calc(50% - 15rem);
+    padding: 2rem 0;
+    column-gap: 2rem;
+  }
+  .clock div {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .clock {
+    width: 100%;
+    margin: 0;
+    padding: 2rem 4rem;
+    column-gap: 0;
+  }
+  .clock div {
+    font-size: 2rem;
+  }
+  .clock div p:last-child {
+    font-size: 1.2rem;
+  }
 }
