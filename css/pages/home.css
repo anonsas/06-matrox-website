@@ -16,3 +16,6 @@
 @import '../components/progress-bar.css';
 
 /* CUSTOM STYLES GOES BELOW THIS COMMENT LINE */
+.highlight {
+  color: var(--secondary-color);
+}

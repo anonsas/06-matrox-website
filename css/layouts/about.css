@@ -1,3 +1,47 @@
 .about {
+  position: relative;
   padding: 10rem 0;
+}
+.about > .row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 14rem;
+}
+
+.about .startup,
+.about .questions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.about .about-title {
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.about .progress {
+  display: flex;
+  flex-direction: column;
+}
+.about .progress progress {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding: 6rem 0;
+  }
+
+  .about > .row {
+    flex-direction: column;
+    text-align: center;
+
+    row-gap: 5rem;
+  }
+
+  .about .startup,
+  .about .questions {
+    row-gap: 1rem;
+  }
 }
