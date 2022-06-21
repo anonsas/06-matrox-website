@@ -1,4 +1,4 @@
-.header {
+.hero {
   height: 100vh;
   background: url('../../images/background.png');
   background-repeat: no-repeat;
@@ -13,14 +13,14 @@
   align-items: center;
 }
 
-.header__logo {
+.hero__logo {
   height: 5rem;
   width: 5rem;
 }
-.header__title {
+.heading__title {
   font-size: 4.8rem;
 }
 
-.header__subheading {
+.heading__subheading {
   color: var(--gray-color-dark);
 }
