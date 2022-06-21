@@ -16,14 +16,36 @@
     <meta name="msapplication-TileColor" content="#603cba" />
     <meta name="theme-color" content="#ffffff" />
 
+    <link rel="stylesheet" href="./css/pages/home.css" />
     <script
+      defer
       src="https://kit.fontawesome.com/5d415a95af.js"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="./css/pages/home.css" />
   </head>
   <body>
-    Content
+    <header id="header" class="header">
+      <img src="./images/logo.png" alt="logo" class="header__logo" />
+
+      <div class="heading">
+        <h1 class="header__title">COMING SOON</h1>
+        <div class="header__subheading">
+          <p>An awesome new company for web resources is coming very soon.</p>
+          <p>Enter your email to request an early invitation!</p>
+        </div>
+      </div>
+
+      <div class="clock">
+        <p>432<span>DAYS</span></p>
+        <p>09<span>HOURS</span></p>
+        <p>37<span>MINUTES</span></p>
+        <p>39<span>SECONDS</span></p>
+      </div>
+      <form class="form-small">
+        <input type="text" required />
+        <button type="submit" class="btn btn-submit">Subscribe Now</button>
+      </form>
+      <a href="#" class="mouse fa-solid fa-chevron-down"></a>
+    </header>
   </body>
 </html>
