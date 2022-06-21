@@ -24,8 +24,9 @@
     ></script>
   </head>
   <body>
+    <!-- HERO SECTION -->
     <section id="hero" class="container hero">
-      <div class="row">
+      <div class="row-small">
         <img src="./images/logo.png" alt="logo" class="hero__logo" />
 
         <div class="container heading">
@@ -37,10 +38,25 @@
         </div>
 
         <div class="clock">
-          <p>432<span>DAYS</span></p>
-          <p>09<span>HOURS</span></p>
-          <p>37<span>MINUTES</span></p>
-          <p>39<span>SECONDS</span></p>
+          <div>
+            <p id="days">432</p>
+            <p>DAYS</p>
+          </div>
+
+          <div>
+            <p id="hours">09</p>
+            <p>HOURS</p>
+          </div>
+
+          <div>
+            <p id="minutes">37</p>
+            <p>HOURS</p>
+          </div>
+
+          <div>
+            <p id="seconds">39</p>
+            <p>SECONDS</p>
+          </div>
         </div>
 
         <form class="form-small">
@@ -51,17 +67,46 @@
       </div>
     </section>
 
+    <!-- ABOUT SECTION -->
     <section id="about" class="container about">
-      <div class="row"></div>
+      <div class="row">
+        <div class="startup">
+          <h3>ABOUT STARTUP</h3>
+          <p>
+            Matrox material design multi-purpose html template. It comes with huge content
+            and background variants. <span class="highlight">Matrox</span> is coming very
+            soon. We are nearly there.
+          </p>
+
+          <div>
+            <label for="file">UX Design</label>
+            <progress id="file" value="90" max="100">32%</progress>
+          </div>
+
+          <div>
+            <label for="file">Web Design</label>
+            <progress id="file" value="86" max="100">32%</progress>
+          </div>
+
+          <div>
+            <label for="file">Web Development</label>
+            <progress id="file" value="86" max="100">32%</progress>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="container footer">
       <div class="row">
         <div class="socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
+          <a href="#" class="fa-brands fa-facebook-f"></a>
+          <a href="#" class="fa-brands fa-twitter"></a>
+          <a href="#" class="fa-brands fa-linkedin-in"></a>
         </div>
+      </div>
+      <div class="row-small">
+        <img src="./images/logo-white.png" alt="logo-white" />
       </div>
     </footer>
   </body>
