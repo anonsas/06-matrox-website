@@ -4,7 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  padding: 10rem 0 2rem;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
 }
 
 .hero > .row-small {
@@ -22,6 +23,7 @@
 
   padding-bottom: 1rem;
 }
+
 .heading__title {
   font-size: 4.8rem;
 }
@@ -38,13 +40,16 @@
     padding-bottom: 0;
   }
   .heading__subheading {
-    font-size: 1.2rem;
+    padding: 0 6rem;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .heading__title {
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+  .heading__subheading {
+    padding: 0 2rem;
   }
 }
 
@@ -53,6 +58,6 @@
     padding: 4rem 0;
   }
   .heading__subheading {
-    padding: 0 2rem;
+    padding: 0 4rem;
   }
 }

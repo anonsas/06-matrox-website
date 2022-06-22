@@ -1,11 +1,13 @@
 .about {
-  position: relative;
-  padding: 10rem 0;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .about > .row {
   display: flex;
   justify-content: space-between;
   column-gap: 14rem;
+
+  position: relative;
 }
 
 .about .startup,
@@ -27,10 +29,14 @@
 .about .progress progress {
   width: 100%;
 }
+.about .progress label {
+  text-align: left;
+}
 
 @media screen and (max-width: 900px) {
   .about {
-    padding: 6rem 0;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .about > .row {
