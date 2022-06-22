@@ -2,3 +2,61 @@
   color: var(--white-color);
   background-color: var(--primary-color);
 }
+
+.footer > .row > .socials {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited {
+  color: var(--white-color);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+.footer .separator-line {
+  height: 1px;
+  background-color: var(--white-color);
+}
+
+.footer .footer__logo {
+  height: 4rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer .footer__copyright {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 3rem;
+}
+
+.footer .footer__description {
+  text-align: center;
+  color: var(--gray-color-light);
+}
+
+@media screen and (max-width: 600px) {
+  .footer .footer__copyright {
+    padding: 3rem;
+  }
+  .footer .footer__logo {
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer > .row > .socials {
+    column-gap: 1.6rem;
+  }
+}

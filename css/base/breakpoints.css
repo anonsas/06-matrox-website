@@ -32,7 +32,8 @@
     width: 100%;
     margin: 0;
   }
-  .container > .row {
+
+  .container .row {
     padding: 0 6rem;
   }
 }
