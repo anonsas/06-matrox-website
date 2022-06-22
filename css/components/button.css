@@ -2,10 +2,28 @@
   color: var(--white-color);
   background-color: var(--secondary-color);
   border: none;
+  text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
 }
 
 .btn-submit {
   padding: 1em 2.2em;
+}
+
+.btn-scroll {
+  position: absolute;
+  right: 0;
+  bottom: -10rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+  font-size: 2rem;
+
+  transform: translateY(50%);
+}
+
+@media screen and (max-width: 900px) {
+  .btn-scroll {
+    bottom: -6rem;
+  }
 }
