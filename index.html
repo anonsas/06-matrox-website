@@ -64,6 +64,7 @@
           <input type="email" placeholder="Type your email" required />
           <button type="submit" class="btn btn-submit">Subscribe Now</button>
         </form>
+
         <a href="#about" class="mouse fa-solid fa-chevron-down"></a>
       </div>
     </section>
@@ -76,23 +77,48 @@
           <h2 class="about-title">ABOUT STARTUP</h2>
           <p>
             Matrox material design multi-purpose html template. It comes with huge content
-            and background variants. <span class="highlight">Matrox</span> is coming very
-            soon. We are nearly there.
+            and background variants.
+            <a href="#" target="_blank" class="highlight">Matrox</a> is coming very soon.
+            We are nearly there.
           </p>
 
           <div class="progress">
-            <label for="file">UX Design</label>
-            <progress id="file" value="90" max="100">32%</progress>
+            <div class="progress__description">
+              <p>UX Design</p>
+              <p>90%</p>
+            </div>
+            <div class="progress__bar-container">
+              <div
+                class="progress__bar"
+                style="animation: loading-90 1.5s 0.5s forwards"
+              ></div>
+            </div>
           </div>
 
           <div class="progress">
-            <label for="file">Web Design</label>
-            <progress id="file" value="86" max="100">32%</progress>
+            <div class="progress__description">
+              <p>Web Design</p>
+              <p>86%</p>
+            </div>
+            <div class="progress__bar-container">
+              <div
+                class="progress__bar"
+                style="animation: loading-86 1.5s 0.5s forwards"
+              ></div>
+            </div>
           </div>
 
           <div class="progress">
-            <label for="file">Web Development</label>
-            <progress id="file" value="86" max="100">32%</progress>
+            <div class="progress__description">
+              <p>Web Development</p>
+              <p>50%</p>
+            </div>
+            <div class="progress__bar-container">
+              <div
+                class="progress__bar"
+                style="animation: loading-50 1.5s 0.5s forwards"
+              ></div>
+            </div>
           </div>
         </div>
 
@@ -101,8 +127,10 @@
           <h2 class="about-title">HAVE ANY QUESTION?</h2>
           <p>
             You can use contact form below or contact us via e-mail at
-            <span class="highlight">trendytheme.net@gmail.com</span> Contact form is fully
-            working and very easy to customize.
+            <a href="mailto:trendytheme.net@gmail.com" target="_blank" class="highlight"
+              >trendytheme.net@gmail.com</a
+            >
+            Contact form is fully working and very easy to customize.
           </p>
           <form class="form" autocomplete="off">
             <div class="form__inputs">
