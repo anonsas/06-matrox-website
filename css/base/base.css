@@ -32,6 +32,6 @@ body {
 }
 /* Changing the style of selected text */
 ::selection {
-  background-color: var(--red-color);
-  color: var(--white-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }

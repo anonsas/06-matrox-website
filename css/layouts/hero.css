@@ -1,5 +1,7 @@
 .hero {
-  height: 100vh;
+  position: relative;
+
+  min-height: 100vh;
   background: url('../../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;

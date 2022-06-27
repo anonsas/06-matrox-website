@@ -16,6 +16,9 @@
 @import '../components/progress-bar.css';
 
 /* CUSTOM STYLES GOES BELOW THIS COMMENT LINE */
-.highlight {
+.highlight,
+.highlight:link,
+.highlight:visited {
   color: var(--secondary-color);
+  text-decoration: none;
 }

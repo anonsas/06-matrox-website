@@ -22,17 +22,6 @@
   letter-spacing: -1px;
 }
 
-.about .progress {
-  display: flex;
-  flex-direction: column;
-}
-.about .progress progress {
-  width: 100%;
-}
-.about .progress label {
-  text-align: left;
-}
-
 @media screen and (max-width: 900px) {
   .about {
     padding-top: 6rem;
@@ -48,6 +37,6 @@
 
   .about .startup,
   .about .questions {
-    row-gap: 1rem;
+    row-gap: 2rem;
   }
 }
