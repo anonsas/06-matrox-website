@@ -53,6 +53,7 @@
 .form .form__inputs textarea {
   grid-column: 1 / -1;
   resize: vertical;
+  font-family: inherit;
 }
 
 .form .form__inputs input,

@@ -24,38 +24,16 @@
   overflow: hidden;
 }
 .progress__bar {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-
   height: 100%;
   background-color: #31a9f3;
+  animation: loading 1.5s;
 }
 
-@keyframes loading-90 {
+@keyframes loading {
   0% {
-    width: 0%;
+    transform: translateX(-100%);
   }
   100% {
-    width: 90%;
-  }
-}
-
-@keyframes loading-86 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 86%;
-  }
-}
-
-@keyframes loading-50 {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 50%;
+    transform: translateX(0);
   }
 }
