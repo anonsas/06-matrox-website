@@ -25,15 +25,16 @@
 }
 .progress__bar {
   height: 100%;
-  background-color: #31a9f3;
-  animation: loading 1.5s;
+  background-color: #e7e7e7;
 }
 
 @keyframes loading {
   0% {
     transform: translateX(-100%);
+    background-color: #31a9f3;
   }
   100% {
     transform: translateX(0);
+    background-color: #31a9f3;
   }
 }

@@ -13,8 +13,6 @@ function clockHandler() {
   const hours = Math.floor((difference / 1000 / 60 / 60) % 24) - 1;
   const days = Math.floor(difference / 1000 / 60 / 60 / 24);
 
-  console.log(days, hours, mins, seconds);
-
   secondsEl.textContent = seconds;
   minutesEl.textContent = mins;
   hoursEl.textContent = hours;
@@ -24,3 +22,27 @@ function clockHandler() {
 setInterval(() => {
   clockHandler();
 }, 1000);
+
+// Animation on Scroll (Progress Bars)
+const progressBar1 = document.getElementById('bar-1');
+const progressBar2 = document.getElementById('bar-2');
+const progressBar3 = document.getElementById('bar-3');
+
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+
+  if (scrolled < 290) {
+    progressBar1.style.animation = 'none';
+    progressBar2.style.animation = 'none';
+    progressBar3.style.animation = 'none';
+  }
+  if (scrolled > 390) {
+    progressBar1.style.animation = 'loading 1.5s forwards';
+  }
+  if (scrolled > 440) {
+    progressBar2.style.animation = 'loading 1.5s forwards';
+  }
+  if (scrolled > 490) {
+    progressBar3.style.animation = 'loading 1.5s forwards';
+  }
+});
